@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.GetCompanyByABN</api_name>
+        <client_callable>true</client_callable>
+        <description>Gets company details from ATO based on ABN number</description>
+        <name>GetCompanyByABN</name>
+        <script><![CDATA[var GetCompanyByABN = Class.create();
+GetCompanyByABN.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	getCompanyDetails: function(){
+		
+		try{
+			var r = new sn_ws.RESTMessageV2('x_58872_needit.ATOABNCheck', 'Default GET');
+			r.setStringParameterNoEscape('guid', gs.getProperty('x_58872_needit.atoGuid'));
+			r.setStringParameterNoEscape('abn_number', this.getParameter('sysparam_ABN'));
+			var response = r.execute();
+			var responseBody = response.getBody();
+			var responseObj = {};
+			var httpStatus;
+		
+			if(responseBody.startsWith('callback')){
+				/* because the RESTFul webservice call for find by ABN from ATO returns an 
+				   answer wrapped in a callback() method construct containing the JSON payload, we
+				   have strip away the pusedo function and return the json payload. Then we have to
+				   convert it to a JSON object and then serialize it to return to the caller
+				*/
+				var regExp = /\(([^)]+)\)/g;
+				var matches = responseBody.match(regExp);
+				var newBody = matches[0].substring(1,matches[0].length -1);
+				//gs.info('Finished parsing body');
+				//var newBody = responseBody.substring(startOfDef,endOfDef);
+				responseObj = JSON.stringify(JSON.parse(newBody));
+				gs.info(response.getStatusCode());
+				httpStatus = response.getStatusCode();
+				return responseObj;
+				
+			} else {
+				responseObj = JSON.parse(responseBody);
+				gs.info('response body - ' + responseBody);
+				httpStatus = response.getStatusCode();
+				return responseObj;
+			}
+		
+			
+		}
+		catch(ex) {
+		 gs.info(ex.message); 
+		}
+	},
+	
+    type: 'GetCompanyByABN'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-18 00:00:51</sys_created_on>
+        <sys_id>e9708d26dbc63300886587423996195f</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_name>GetCompanyByABN</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_e9708d26dbc63300886587423996195f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-18 04:47:46</sys_updated_on>
+    </sys_script_include>
+</record_update>

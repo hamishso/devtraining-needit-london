@@ -12,7 +12,9 @@
                 <element inactive_on_update="false" label="Legal" sequence="2" value="legal"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="30" name="u_string_1" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Requested for email" max_length="40" name="u_str_email" read_only="true" type="string"/>
+        <element attributes="base_start=true" default="sys_user" label="List Of User" max_length="80" name="u_table_sy_usr" type="table_name"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
             <choice>
                 <element inactive_on_update="false" label="Human Resources 1" sequence="0" value="hr1"/>

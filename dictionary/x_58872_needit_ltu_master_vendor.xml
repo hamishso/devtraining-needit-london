@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="LTU Master Vendor" max_length="40" name="x_58872_needit_ltu_master_vendor" type="collection">
+        <element label="ABN Number" max_length="20" name="abn_number" type="string"/>
+        <element label="Accounts Payable Email" max_length="130" name="accounts_payable_email" type="string"/>
+        <element label="City" max_length="35" name="city" type="string"/>
+        <element label="Company Code" max_length="4" name="company_code" type="string"/>
+        <element label="Country" max_length="3" name="country" type="string"/>
+        <element label="Currency" max_length="5" name="currency" type="currency"/>
+        <element label="House Number" max_length="35" name="house_number" type="string"/>
+        <element label="Incoming Terms" max_length="3" name="incoming_terms" type="string"/>
+        <element label="Industry Code" max_length="4" name="industry_code" type="string"/>
+        <element label="Industry Code Description" max_length="20" name="industry_code_description" type="string"/>
+        <element label="Legal Name" max_length="70" name="legal_name" type="string"/>
+        <element label="Mobile Phone" max_length="30" name="mobile_phone" type="string"/>
+        <element label="Number Of Bank Accounts" max_length="10" name="number_of_bank_accounts" type="integer"/>
+        <element label="Payment Methods" max_length="10" name="payment_methods" type="string"/>
+        <element label="Payment Terms" max_length="4" name="payment_terms" type="string"/>
+        <element label="Post Code" max_length="10" name="post_code" type="string"/>
+        <element label="PO Box" max_length="10" name="po_box" type="string"/>
+        <element label="PO Box Post Code" max_length="10" name="po_box_post_code" type="string"/>
+        <element label="Purchasing Email" max_length="241" name="purchasing_email" type="string"/>
+        <element label="Purchasing Organisation" max_length="4" name="purchasing_organisation" type="string"/>
+        <element label="Recepient Created Tax Invoice" max_length="1" name="recepient_created_tax_invoice" type="string"/>
+        <element label="Status" max_length="10" name="status" type="string"/>
+        <element label="Street" max_length="35" name="street" type="string"/>
+        <element label="Telephone" max_length="16" name="telephone" type="string"/>
+        <element label="Trading Name" max_length="70" name="trading_name" type="string"/>
+        <element label="Vendor Id" max_length="10" name="vendor_id" type="string"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Vendor Type" max_length="4" name="vendor_type" type="string"/>
+        <element label="Vendor Type Description" max_length="30" name="vendor_type_description" type="string"/>
+    </element>
+</database>
