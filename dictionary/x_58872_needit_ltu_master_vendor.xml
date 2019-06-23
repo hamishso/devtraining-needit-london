@@ -5,12 +5,12 @@
         <element label="City" max_length="35" name="city" type="string"/>
         <element label="Company Code" max_length="4" name="company_code" type="string"/>
         <element label="Country" max_length="3" name="country" type="string"/>
-        <element label="Currency" max_length="5" name="currency" type="currency"/>
+        <element label="Currency Code" max_length="5" name="currency" reference="fx_currency" type="reference"/>
         <element label="House Number" max_length="35" name="house_number" type="string"/>
         <element label="Incoming Terms" max_length="3" name="incoming_terms" type="string"/>
         <element label="Industry Code" max_length="4" name="industry_code" type="string"/>
         <element label="Industry Code Description" max_length="20" name="industry_code_description" type="string"/>
-        <element label="Legal Name" max_length="70" name="legal_name" type="string"/>
+        <element label="Legal Name" max_length="71" name="legal_name" type="string"/>
         <element label="Mobile Phone" max_length="30" name="mobile_phone" type="string"/>
         <element label="Number Of Bank Accounts" max_length="10" name="number_of_bank_accounts" type="integer"/>
         <element label="Payment Methods" max_length="10" name="payment_methods" type="string"/>
@@ -24,7 +24,7 @@
         <element label="Status" max_length="10" name="status" type="string"/>
         <element label="Street" max_length="35" name="street" type="string"/>
         <element label="Telephone" max_length="16" name="telephone" type="string"/>
-        <element label="Trading Name" max_length="70" name="trading_name" type="string"/>
+        <element display="true" label="Trading Name" max_length="70" name="trading_name" type="string"/>
         <element label="Vendor Id" max_length="10" name="vendor_id" type="string"/>
         <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Vendor Type" max_length="4" name="vendor_type" type="string"/>
         <element label="Vendor Type Description" max_length="30" name="vendor_type_description" type="string"/>

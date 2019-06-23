@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="currency" label="Currency" language="en" table="x_58872_needit_ltu_master_vendor">
+    <sys_documentation element="currency" label="Currency Code" language="en" table="x_58872_needit_ltu_master_vendor">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>currency</element>
             <help/>
             <hint/>
-            <label>Currency</label>
+            <label>Currency Code</label>
             <language>en</language>
             <name>x_58872_needit_ltu_master_vendor</name>
-            <plural>Currencies</plural>
+            <plural>Currency Codes</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-06-17 01:05:30</sys_created_on>
             <sys_id>4106801adb023300886587423996195f</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Currency</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Currency Code</sys_name>
             <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
             <sys_policy/>
             <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
             <sys_update_name>sys_documentation_x_58872_needit_ltu_master_vendor_currency_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-17 01:05:30</sys_updated_on>
+            <sys_updated_on>2019-06-20 01:17:37</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

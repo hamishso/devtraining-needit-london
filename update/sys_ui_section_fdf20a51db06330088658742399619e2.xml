@@ -4,13 +4,13 @@
             <element>who_requires_this_service</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-18 09:10:44</sys_created_on>
-            <sys_id>36aef2a6db0e3300886587423996190b</sys_id>
+            <sys_created_on>2019-06-21 01:48:23</sys_created_on>
+            <sys_id>6436f867dbcab30088658742399619fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_58872_needit_new_vendor" sys_domain="global" view="Default view">fdf20a51db06330088658742399619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 09:10:44</sys_updated_on>
+            <sys_updated_on>2019-06-21 01:48:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_vendor_type</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-18 09:10:44</sys_created_on>
-            <sys_id>b6aef2a6db0e3300886587423996190b</sys_id>
+            <sys_created_on>2019-06-21 01:48:23</sys_created_on>
+            <sys_id>e436f867dbcab30088658742399619fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_58872_needit_new_vendor" sys_domain="global" view="Default view">fdf20a51db06330088658742399619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 09:10:44</sys_updated_on>
+            <sys_updated_on>2019-06-21 01:48:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>u_abn_number</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-18 09:10:44</sys_created_on>
-            <sys_id>3aaef2a6db0e3300886587423996190b</sys_id>
+            <sys_created_on>2019-06-21 01:48:23</sys_created_on>
+            <sys_id>6836f867dbcab30088658742399619fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_58872_needit_new_vendor" sys_domain="global" view="Default view">fdf20a51db06330088658742399619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 09:10:44</sys_updated_on>
+            <sys_updated_on>2019-06-21 01:48:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>u_vendor_abn_status</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-18 09:10:44</sys_created_on>
-            <sys_id>baaef2a6db0e3300886587423996190b</sys_id>
+            <sys_created_on>2019-06-21 01:48:23</sys_created_on>
+            <sys_id>e836f867dbcab30088658742399619fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_58872_needit_new_vendor" sys_domain="global" view="Default view">fdf20a51db06330088658742399619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 09:10:44</sys_updated_on>
+            <sys_updated_on>2019-06-21 01:48:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,83 +60,111 @@
             <element>u_trading_name</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-18 09:10:44</sys_created_on>
-            <sys_id>3eaef2a6db0e3300886587423996190b</sys_id>
+            <sys_created_on>2019-06-21 01:48:23</sys_created_on>
+            <sys_id>6c36f867dbcab30088658742399619fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_58872_needit_new_vendor" sys_domain="global" view="Default view">fdf20a51db06330088658742399619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 09:10:44</sys_updated_on>
+            <sys_updated_on>2019-06-21 01:48:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_abn_business_name</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-21 01:48:23</sys_created_on>
+            <sys_id>ec36f867dbcab30088658742399619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_58872_needit_new_vendor" sys_domain="global" view="Default view">fdf20a51db06330088658742399619e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-21 01:48:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_vendor_email</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-18 09:10:44</sys_created_on>
-            <sys_id>beaef2a6db0e3300886587423996190b</sys_id>
+            <sys_created_on>2019-06-21 01:48:23</sys_created_on>
+            <sys_id>6036f867dbcab30088658742399619fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_58872_needit_new_vendor" sys_domain="global" view="Default view">fdf20a51db06330088658742399619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 09:10:44</sys_updated_on>
+            <sys_updated_on>2019-06-21 01:48:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_vendor_contact</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-18 09:10:44</sys_created_on>
-            <sys_id>32aef2a6db0e3300886587423996190c</sys_id>
+            <sys_created_on>2019-06-21 01:48:23</sys_created_on>
+            <sys_id>e036f867dbcab30088658742399619fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_58872_needit_new_vendor" sys_domain="global" view="Default view">fdf20a51db06330088658742399619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 09:10:44</sys_updated_on>
+            <sys_updated_on>2019-06-21 01:48:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_justification</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-18 09:10:44</sys_created_on>
-            <sys_id>b2aef2a6db0e3300886587423996190c</sys_id>
+            <sys_created_on>2019-06-21 01:48:23</sys_created_on>
+            <sys_id>6436f867dbcab30088658742399619fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_58872_needit_new_vendor" sys_domain="global" view="Default view">fdf20a51db06330088658742399619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 09:10:44</sys_updated_on>
+            <sys_updated_on>2019-06-21 01:48:23</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-18 09:10:44</sys_created_on>
-            <sys_id>36aef2a6db0e3300886587423996190c</sys_id>
+            <sys_created_on>2019-06-21 01:48:23</sys_created_on>
+            <sys_id>e436f867dbcab30088658742399619fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_58872_needit_new_vendor" sys_domain="global" view="Default view">fdf20a51db06330088658742399619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 09:10:44</sys_updated_on>
+            <sys_updated_on>2019-06-21 01:48:23</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>employee_id</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-18 09:10:44</sys_created_on>
-            <sys_id>b6aef2a6db0e3300886587423996190c</sys_id>
+            <sys_created_on>2019-06-21 01:48:23</sys_created_on>
+            <sys_id>6836f867dbcab30088658742399619fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_58872_needit_new_vendor" sys_domain="global" view="Default view">fdf20a51db06330088658742399619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-18 09:10:44</sys_updated_on>
+            <sys_updated_on>2019-06-21 01:48:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_vendor_trading_name</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-21 02:48:01</sys_created_on>
+            <sys_id>b1d3c16fdbcab30088658742399619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_58872_needit_new_vendor" sys_domain="global" view="Default view">fdf20a51db06330088658742399619e2</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-21 02:48:01</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
