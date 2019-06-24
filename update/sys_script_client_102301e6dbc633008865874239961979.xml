@@ -14,9 +14,8 @@
    if (isLoading || newValue === '' || newValue == oldValue) {
       return;
    }
-   jslog(g_form.getValue('u_vendor_type'));
 
-   g_form.clearOptions('u_abn_business_name');
+   g_form.clearOptions('u_vendor_trading_name');
 	
    var abnNumberEntered = g_form.getValue('u_abn_number');
 	
@@ -64,12 +63,13 @@
 		   To convert to a JSON object so we can get access to the values
 		   */
 		   var obj = JSON.parse(businessFromScriptInclude);
+		   jslog('in vendor check for ABN service');
 		   if(obj.Message == ""){
 			  if(obj.AbnStatus != 'Active'){
 				  g_form.showFieldMsg('u_abn_number','The ABN is not active','error');
 			  } else {
-				  g_form.clearValue('u_vendor_trading_name');
-				  g_form.addValue('u_trading_name',obj.EntityName);
+				  g_form.clearValue('u_trading_name');
+				  g_form.setValue('u_trading_name',obj.EntityName);
 				  for(var i=0; i < obj.BusinessName.length; i++){
 					  var bname = obj.BusinessName[i];
 					  g_form.addOption('u_vendor_trading_name',bname, bname);
@@ -96,7 +96,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>102301e6dbc633008865874239961979</sys_id>
-        <sys_mod_count>78</sys_mod_count>
+        <sys_mod_count>86</sys_mod_count>
         <sys_name>Needit Populate ASIC Data</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -104,7 +104,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_client_102301e6dbc633008865874239961979</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-24 06:43:36</sys_updated_on>
+        <sys_updated_on>2019-06-24 13:54:53</sys_updated_on>
         <table>x_58872_needit_new_vendor</table>
         <type>onChange</type>
         <ui_type>0</ui_type>

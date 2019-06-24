@@ -14,43 +14,34 @@
    if (isLoading || newValue === '') {
       return;
    }
+	
+	if (isLoading)
+        return;
    
-	var termsOfPaymentRef = g_form.getReference('u_vendor_name', getVendorName);
-	
-	
-	function getVendorName(vendor){
-
-		try{
-			var termsOfPaymentRef = vendor.payment_terms;
+	try{
+		var vendorPaymentTerms = new GlideAjax('GetVendorsCurrentPaymentTerms');
 			
-			var vendorId = vendor.sys_id;
-	
-			jslog('vendorId ' + vendorId);
-	
-			var getVendorPaymentTerms = new GlideAjax('GetVendorsCurrentPaymentTerms');
-			
-			var masterVendor = new GlideAjax('MasterVendorUtils');
+		var masterVendor = new GlideAjax('MasterVendorUtils');
 		
-			jslog('past the glide Ajax ' + getVendorPaymentTerms);
+		var vendor_id = g_form.getValue('u_vendor_name');
+		
+		masterVendor.addParam('sysparm_name', 'getVendorCurrency');
 			
-			masterVendor.addParam('sysparm_name', 'getVendorCurrency');
-			
-			masterVendor.addParam('sysparam_VendorID', vendorId);
-			
-			masterVendor.getXML(populateCurrency);
+		masterVendor.addParam('sysparam_VendorID', vendor_id);
 	
-			getVendorPaymentTerms.addParam('sysparm_name', 'getCurrentTerms');
+		masterVendor.getXML(populateCurrency);
 	
-			getVendorPaymentTerms.addParam('sysparam_TermsRef', termsOfPaymentRef);
+		masterVendor.addParam('sysparm_name', 'getVendorCurrency');
 	
-			getVendorPaymentTerms.getXML(populateCurrentTerms);
-
-			jslog('past the call to the XML');
+		vendorPaymentTerms.addParam('sysparm_name', 'getCurrentTerms');
 	
-		}catch(ex){
-			jslog(ex.message);
-		}
+		vendorPaymentTerms.addParam('sysparam_VendorID', vendor_id);
+	
+		vendorPaymentTerms.getXML(populateCurrentTerms);
+	}catch(ex){
+		jslog(ex.message);
 	}
+	
 	function populateCurrency(response){
 		var currency_code = response.responseXML.documentElement.getAttribute('answer');
 		jslog(currency_code);
@@ -69,7 +60,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6252411fdb82b300886587423996194e</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_name>Needit onChange get terms of payment</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -77,10 +68,10 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_client_6252411fdb82b300886587423996194e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-20 14:32:35</sys_updated_on>
+        <sys_updated_on>2019-06-24 13:50:29</sys_updated_on>
         <table>x_58872_needit_ltu_new_purchase_order</table>
         <type>onChange</type>
         <ui_type>0</ui_type>
-        <view/>
+        <view>Default View</view>
     </sys_script_client>
 </record_update>

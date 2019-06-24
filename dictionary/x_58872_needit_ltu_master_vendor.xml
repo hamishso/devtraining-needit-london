@@ -14,7 +14,9 @@
         <element label="Mobile Phone" max_length="30" name="mobile_phone" type="string"/>
         <element label="Number Of Bank Accounts" max_length="10" name="number_of_bank_accounts" type="integer"/>
         <element label="Payment Methods" max_length="10" name="payment_methods" type="string"/>
-        <element label="Payment Terms" max_length="4" name="payment_terms" type="string"/>
+        <element choice="3" label="Payment Terms" max_length="4" name="payment_terms" reference="x_58872_needit_terms_of_payment" reference_key="terms_of_payment" type="reference">
+            <choice/>
+        </element>
         <element label="Post Code" max_length="10" name="post_code" type="string"/>
         <element label="PO Box" max_length="10" name="po_box" type="string"/>
         <element label="PO Box Post Code" max_length="10" name="po_box_post_code" type="string"/>
