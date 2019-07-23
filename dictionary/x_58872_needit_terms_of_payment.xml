@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="LTU Master Terms Of Payment" max_length="40" name="x_58872_needit_terms_of_payment" type="collection">
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Account Type" mandatory="true" max_length="20" name="account_type" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" display="true" label="Description" max_length="50" name="terms_description" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Terms Of Payment" mandatory="true" max_length="4" name="terms_of_payment" type="string"/>
+        <element label="Account Type" mandatory="true" max_length="20" name="account_type" type="string"/>
+        <element display="true" label="Description" max_length="50" name="terms_description" type="string"/>
+        <element label="Terms Of Payment" mandatory="true" max_length="4" name="terms_of_payment" type="string"/>
         <index name="index">
             <element name="terms_of_payment"/>
         </index>

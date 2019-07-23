@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Order Lines" max_length="40" name="x_58872_needit_order_lines" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Description Of Goods or Services" max_length="40" name="u_description_of_goods_or_services" type="string_full_utf8"/>
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Purchase Order" max_length="32" name="u_parent" reference="x_58872_needit_ltu_new_purchase_order" type="reference"/>
+        <index name="index">
+            <element name="u_parent"/>
+        </index>
+    </element>
+</database>

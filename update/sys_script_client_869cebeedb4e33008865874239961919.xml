@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
     <sys_script_client action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <applies_extended>false</applies_extended>
         <condition/>
         <description>When the business type field changes then clear all the fields and change visibilty</description>
@@ -12,7 +12,7 @@
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
    
-   if (isLoading || newValue === '' || newValue == oldValue) {
+   if (isLoading || newValue === '' || newValue == oldValue || !g_form.isNewRecord()) {
 	  jslog(g_form.getValue('u_trading_name'));
       return;
    }
@@ -22,6 +22,8 @@
 	g_form.clearValue('u_vendor_email');
 	g_form.clearValue('u_vendor_contact');
 	g_form.clearValue('u_describe_services');
+	g_form.clearValue('u_entity_type');
+	g_form.clearValue('u_abn_number');
 	
 	//reset the checkboxes
 	g_form.setValue('u_engaged_vendor', false);
@@ -39,7 +41,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>869cebeedb4e33008865874239961919</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Needit Clear Fields on Change of type</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -47,10 +49,10 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_client_869cebeedb4e33008865874239961919</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-24 11:02:48</sys_updated_on>
+        <sys_updated_on>2019-07-03 06:16:08</sys_updated_on>
         <table>x_58872_needit_new_vendor</table>
         <type>onChange</type>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <view/>
     </sys_script_client>
 </record_update>

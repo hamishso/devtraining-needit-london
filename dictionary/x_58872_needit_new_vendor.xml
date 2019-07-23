@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="LTU New Vendor" max_length="40" name="x_58872_needit_new_vendor" type="collection">
-        <element default="20" label="Employee ID" max_length="40" name="employee_id" read_only="true" type="integer"/>
+    <element extends="task" label="LTU New Vendor" max_length="40" name="x_58872_needit_new_vendor" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="20" label="Employee ID" max_length="40" name="employee_id" read_only="true" type="integer"/>
         <element attributes="edge_encryption_enabled=true,format=none" hint="Enter Vendor ABN (11 digit) without spaces" label="Enter ABN Number" max_length="20" name="u_abn_number" type="integer"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" choice="1" label="Vendor Accepts Credit Cards" max_length="2" name="u_accepts_credit_cards" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Vendor Accepts Credit Cards" max_length="2" name="u_accepts_credit_cards" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Yes" sequence="0" value="Y"/>
                 <element inactive_on_update="false" label="No" sequence="1" value="N"/>
                 <element inactive_on_update="false" label="Not Sure" sequence="2" value="NS"/>
             </choice>
         </element>
-        <element label="Is there a contract already in place ?" max_length="40" name="u_contract_in_place_8" type="boolean"/>
-        <element label="Have you already engaged vendor to a commerical commitment" max_length="40" name="u_engaged_vendor" type="boolean"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Estimated Spend" mandatory="true" max_length="10" name="u_estimated_spend" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Is there a contract already in place ?" max_length="40" name="u_contract_in_place_8" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Have you already engaged vendor to a commerical commitment" max_length="40" name="u_engaged_vendor" type="boolean"/>
+        <element attributes="omit_sys_original=true,edge_encryption_enabled=true" label="Estimated Spend" max_length="20" name="u_estimated_spend" read_only="true" type="currency"/>
         <element attributes="edge_encryption_enabled=true" hint="Please justify why do you want to create a new vendor" label="Justification" mandatory="true" max_length="40" name="u_justification" type="string"/>
-        <element hint="are you planning to buy from this vendor again ?" label="Is there an ongoing purchasing requirement?" max_length="40" name="u_ongoing_purchasing_7" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" hint="are you planning to buy from this vendor again ?" label="Is there an ongoing purchasing requirement?" max_length="40" name="u_ongoing_purchasing_7" type="boolean"/>
         <element attributes="edge_encryption_enabled=true" hint="Enter Vendor name" label="Enter Vendor Name" max_length="70" name="u_trading_name" type="string"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Users" max_length="1024" name="u_user_list" reference="sys_user" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true,edge_encryption_enabled=true" label="Users" max_length="1024" name="u_user_list" reference="sys_user" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true" default="Active" label="ABN Status" max_length="40" name="u_vendor_abn_status" read_only="true" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="ASIC Status" max_length="10" name="u_vendor_asic_status" type="string"/>
+        <element label="ASIC Status" max_length="10" name="u_vendor_asic_status" type="string"/>
         <element attributes="edge_encryption_enabled=true,format=none" hint="Please enter number with area code" label="Enter Vendor Contact" mandatory="true" max_length="40" name="u_vendor_contact" type="integer"/>
         <element attributes="edge_encryption_enabled=true" hint="We will contact the vendor through this email to complete the vendor details." label="Enter Vendor Email" mandatory="true" max_length="241" name="u_vendor_email" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Enter Trading Name" max_length="71" name="u_vendor_trading_name" type="choice">
+        <element attributes="edge_encryption_enabled=true" label="Enter Trading Name" max_length="71" name="u_vendor_trading_name" type="choice">
             <choice/>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Z001" label="Vendor Type" max_length="40" name="u_vendor_type" type="choice">
@@ -29,6 +29,6 @@
                 <element inactive_on_update="false" label="International" sequence="1" value="Z005"/>
             </choice>
         </element>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" hint="This is some help" label="Who Requires This Service" mandatory="true" max_length="32" name="who_requires_this_service" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" hint="This is some help" label="Who Requires This Service" mandatory="true" max_length="32" name="who_requires_this_service" reference="sys_user" type="reference"/>
     </element>
 </database>

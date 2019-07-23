@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {	
+	var c = this;		
+	c.displayABN = function(){
+		console.log(c.data.abn)
+		//c.display();
+	  c.server.update();		
+	}
+	
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css/>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>ltu_vendor_search</id>
+        <internal>false</internal>
+        <link/>
+        <name>LTU vendor Search</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+	if (input){
+		console.log('inside script ' + input.abn);
+		data.items = getVendorRecord(input);
+	}
+	
+	function getVendorRecord(inputObj) {
+		var sc = new GlideRecord('x_58872_needit_ltu_master_vendor');
+		console.log('query');
+		sc.addActiveQuery();
+		if(inputObj.abn != ''){
+			sc.addQuery('abn_number', inputObj.abn);
+		}else if (inputObj.trading_name != ''){
+			sc.addQuery('trading_name', inputObj.trading_name);
+		}else if (inputObj.vendor_id != ''){
+			sc.addQuery('vendor_id', inputObj.vendor_id);
+		}
+		sc.setLimit(100);
+		sc.orderByDesc("abn_number");
+		sc.query();
+		var results = [];
+		while (sc.next()) {
+			if (!$sp.canReadRecord(sc))
+				continue;
+
+			var item = {};
+			$sp.getRecordDisplayValues(item, sc, 'abn_number,trading_name,vendor_id,sys_id');
+			item.abn_number = sc.getValue('abn_number');
+			results.push(item);
+		}
+		return results;
+	}
+})();
+
+]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-22 06:10:57</sys_created_on>
+        <sys_id>f49b9165db32330088658742399619eb</sys_id>
+        <sys_mod_count>105</sys_mod_count>
+        <sys_name>LTU vendor Search</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sp_widget_f49b9165db32330088658742399619eb</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-23 08:08:28</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-primary">
+ <div class="panel-heading">Find a Vendor</div>
+ <div class="panel-body">
+   <div class="form-group">
+    <label for="inputABN">Search On ABN</label>
+      <div class="input-group mb-5">
+        <input class="form-control" id="inputABN" type="search" placeholder="Start typing the ABN here to search the list of vendors" ng-model="c.data.abn" ng-change="c.server.update()" ng-model-options="{debounce: 250}" />
+        <span class="input-group-btn">
+          <button name="search" type="submit" class="btn btn-default" title="Search" aria-label="Search">
+    	     <i class="fa fa-search"></i>
+          </button>
+        </span>
+    </div>
+   </div>
+   <div class="form-group">
+    <label class="mt-3" for="inputTradingName">Search On Name</label>
+      <div class="input-group mb-3">
+        <input class="form-control" id="inputTradingName" type="search" placeholder="Start typing the Name here to search the list of vendors" ng-model="c.data.trading_name" ng-change="c.server.update()" ng-model-options="{debounce: 250}" />
+        <span class="input-group-btn">
+          <button name="search" type="submit" class="btn btn-default" title="Search" aria-label="Search">
+    	     <i class="fa fa-search"></i>
+          </button>
+        </span>
+    </div>
+   </div>
+   <div class="form-group">
+    <label class="mt-3" for="inputVendorId">Search On Vendor Id</label>
+      <div class="input-group mb-3">
+        <input class="form-control" id="inputVendorId" type="search" placeholder="Start typing the Id here to search the list of vendors" ng-model="c.data.vendor_id" ng-change="c.server.update()" ng-model-options="{debounce: 250}" />
+        <span class="input-group-btn">
+          <button name="search" type="submit" class="btn btn-default" title="Search" aria-label="Search">
+    	     <i class="fa fa-search"></i>
+          </button>
+        </span>
+    </div>
+   </div>
+ </div>
+</div>
+<div class="panel panel-primary">
+<div class="panel-heading">Results</div>
+  <div class="panel-body">
+  <table class="table table-hover">
+   <thead>
+    <tr class='table-primary'>
+      <th scope="col">ABN</th>
+      <th scope="col">Name</th>
+      <th scope="col">Id</th>
+    </tr>
+   </thead>
+   <tbody>
+    <tr ng-repeat="vendor in c.data.items">
+      <td>{{vendor.abn_number}}</td>
+      <td>{{vendor.trading_name}}</td>
+      <td>{{vendor.vendor_id}}</td>
+    </tr>
+   </tbody>
+  </table>
+</div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

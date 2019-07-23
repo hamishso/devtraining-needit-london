@@ -3,30 +3,44 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-17 07:46:30</sys_created_on>
+            <sys_created_on>2019-07-08 04:59:28</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>87c16d1edbc23300886587423996192c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>49f48149db22330088658742399619fd</sys_id>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_58872_needit_new_vendor" name="x_58872_needit_new_vendor" sys_domain="global" view="Default view">43c16d1edbc23300886587423996192a</sys_ui_form>
             <sys_ui_section caption="Vendor Details" display_value="Vendor Details" name="x_58872_needit_new_vendor" sys_domain="global" view="Default view">fdf20a51db06330088658742399619e2</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-17 07:46:30</sys_updated_on>
+            <sys_updated_on>2019-07-09 05:26:35</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 04:59:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c1f4c149db2233008865874239961901</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_new_vendor" name="x_58872_needit_new_vendor" sys_domain="global" view="Default view">43c16d1edbc23300886587423996192a</sys_ui_form>
+            <sys_ui_section caption="Spending Information" display_value="Spending Information" name="x_58872_needit_new_vendor" sys_domain="global" view="Default view">0df48149db22330088658742399619fa</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-09 05:26:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-06-17 07:47:17</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>2ef1215edbc23300886587423996196e</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_58872_needit_new_vendor" name="x_58872_needit_new_vendor" sys_domain="global" view="Default view">43c16d1edbc23300886587423996192a</sys_ui_form>
             <sys_ui_section caption="Other Information" display_value="Other Information" name="x_58872_needit_new_vendor" sys_domain="global" view="Default view">a6f1215edbc23300886587423996196d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-17 07:47:17</sys_updated_on>
+            <sys_updated_on>2019-07-09 05:26:35</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_58872_needit_new_vendor</name>

@@ -28,7 +28,13 @@
         <element label="Telephone" max_length="16" name="telephone" type="string"/>
         <element display="true" label="Trading Name" max_length="70" name="trading_name" type="string"/>
         <element label="Vendor Id" max_length="10" name="vendor_id" type="string"/>
-        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Vendor Type" max_length="4" name="vendor_type" type="string"/>
+        <element label="Vendor Type" max_length="4" name="vendor_type" type="string"/>
         <element label="Vendor Type Description" max_length="30" name="vendor_type_description" type="string"/>
+        <index name="index">
+            <element name="currency"/>
+        </index>
+        <index name="index2">
+            <element name="payment_terms"/>
+        </index>
     </element>
 </database>

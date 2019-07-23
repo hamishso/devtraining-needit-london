@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_index">
     <sys_index action="INSERT_OR_UPDATE">
         <col_name_string>terms_of_payment</col_name_string>
-        <index_col_name element="terms_of_payment" name="x_58872_needit_terms_of_payment">c0fb2bc7dbce73008865874239961946</index_col_name>
+        <index_col_name>c0fb2bc7dbce73008865874239961946</index_col_name>
         <logical_table_name>x_58872_needit_terms_of_payment</logical_table_name>
         <sys_class_name>sys_index</sys_class_name>
         <sys_created_by>system</sys_created_by>
@@ -15,7 +15,7 @@
         <sys_update_name>sys_index_x_58872_needit_terms_of_payment_terms_of_payment</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
         <sys_updated_on>2019-06-20 11:38:22</sys_updated_on>
-        <table display_value="LTU Master Terms Of Payment" name="x_58872_needit_terms_of_payment">2c3b238bdbce7300886587423996197b</table>
+        <table/>
         <unique_index>false</unique_index>
     </sys_index>
 </record_update>

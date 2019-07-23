@@ -4,13 +4,13 @@
             <element>u_display_name</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-20 07:37:52</sys_created_on>
-            <sys_id>429c3c1bdb82b300886587423996195c</sys_id>
+            <sys_created_on>2019-07-15 07:27:40</sys_created_on>
+            <sys_id>ec0ae157db2a730088658742399619cf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_ltu_new_purchase_order" sys_domain="global" view="Default view">e8fd2cdfdb42b3008865874239961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-20 07:37:52</sys_updated_on>
+            <sys_updated_on>2019-07-15 07:27:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>u_vendor_name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-20 07:37:52</sys_created_on>
-            <sys_id>c69c3c1bdb82b300886587423996195c</sys_id>
+            <sys_created_on>2019-07-15 07:27:40</sys_created_on>
+            <sys_id>600ae157db2a730088658742399619d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_ltu_new_purchase_order" sys_domain="global" view="Default view">e8fd2cdfdb42b3008865874239961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-20 07:37:52</sys_updated_on>
+            <sys_updated_on>2019-07-15 07:27:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>u_vendor_terms</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-20 07:37:52</sys_created_on>
-            <sys_id>4a9c3c1bdb82b300886587423996195c</sys_id>
+            <sys_created_on>2019-07-15 07:27:40</sys_created_on>
+            <sys_id>e00ae157db2a730088658742399619d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_ltu_new_purchase_order" sys_domain="global" view="Default view">e8fd2cdfdb42b3008865874239961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-20 07:37:52</sys_updated_on>
+            <sys_updated_on>2019-07-15 07:27:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>u_preapproval_payment_terms</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-20 07:37:52</sys_created_on>
-            <sys_id>ca9c3c1bdb82b300886587423996195c</sys_id>
+            <sys_created_on>2019-07-15 07:27:40</sys_created_on>
+            <sys_id>640ae157db2a730088658742399619d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_ltu_new_purchase_order" sys_domain="global" view="Default view">e8fd2cdfdb42b3008865874239961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-20 07:37:52</sys_updated_on>
+            <sys_updated_on>2019-07-15 07:27:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>payment_terms</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-20 07:37:52</sys_created_on>
-            <sys_id>4e9c3c1bdb82b300886587423996195c</sys_id>
+            <sys_created_on>2019-07-15 07:27:40</sys_created_on>
+            <sys_id>e40ae157db2a730088658742399619d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_ltu_new_purchase_order" sys_domain="global" view="Default view">e8fd2cdfdb42b3008865874239961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-20 07:37:52</sys_updated_on>
+            <sys_updated_on>2019-07-15 07:27:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>u_type_of_order</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-20 07:37:52</sys_created_on>
-            <sys_id>ce9c3c1bdb82b300886587423996195c</sys_id>
+            <sys_created_on>2019-07-15 07:27:40</sys_created_on>
+            <sys_id>680ae157db2a730088658742399619d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_ltu_new_purchase_order" sys_domain="global" view="Default view">e8fd2cdfdb42b3008865874239961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-20 07:37:52</sys_updated_on>
+            <sys_updated_on>2019-07-15 07:27:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>u_pre_payment</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-20 07:37:52</sys_created_on>
-            <sys_id>429c3c1bdb82b300886587423996195d</sys_id>
+            <sys_created_on>2019-07-15 07:27:40</sys_created_on>
+            <sys_id>e80ae157db2a730088658742399619d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_ltu_new_purchase_order" sys_domain="global" view="Default view">e8fd2cdfdb42b3008865874239961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-20 07:37:52</sys_updated_on>
+            <sys_updated_on>2019-07-15 07:27:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>u_vendor_currency_code</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-20 07:37:52</sys_created_on>
-            <sys_id>c29c3c1bdb82b300886587423996195d</sys_id>
+            <sys_created_on>2019-07-15 07:27:40</sys_created_on>
+            <sys_id>6c0ae157db2a730088658742399619d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_ltu_new_purchase_order" sys_domain="global" view="Default view">e8fd2cdfdb42b3008865874239961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-20 07:37:52</sys_updated_on>
+            <sys_updated_on>2019-07-15 07:27:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,97 +116,125 @@
             <element>u_order_value</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-20 07:37:52</sys_created_on>
-            <sys_id>469c3c1bdb82b300886587423996195d</sys_id>
+            <sys_created_on>2019-07-15 07:27:40</sys_created_on>
+            <sys_id>ec0ae157db2a730088658742399619d0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_ltu_new_purchase_order" sys_domain="global" view="Default view">e8fd2cdfdb42b3008865874239961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-20 07:37:52</sys_updated_on>
+            <sys_updated_on>2019-07-15 07:27:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.split</element>
+            <element>x_58872_needit_priority_description.xml</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-20 07:37:52</sys_created_on>
-            <sys_id>c69c3c1bdb82b300886587423996195d</sys_id>
+            <sys_created_on>2019-07-15 07:27:40</sys_created_on>
+            <sys_id>600ae157db2a730088658742399619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="example">7beb40dfdb267300886587423996196e</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_ltu_new_purchase_order" sys_domain="global" view="Default view">e8fd2cdfdb42b3008865874239961931</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-15 07:27:40</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-15 07:27:40</sys_created_on>
+            <sys_id>640ae157db2a730088658742399619d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_ltu_new_purchase_order" sys_domain="global" view="Default view">e8fd2cdfdb42b3008865874239961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-20 07:37:52</sys_updated_on>
+            <sys_updated_on>2019-07-15 07:27:40</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>order_value_aud</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-20 07:37:52</sys_created_on>
-            <sys_id>4a9c3c1bdb82b300886587423996195d</sys_id>
+            <sys_created_on>2019-07-15 07:27:40</sys_created_on>
+            <sys_id>e40ae157db2a730088658742399619d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_ltu_new_purchase_order" sys_domain="global" view="Default view">e8fd2cdfdb42b3008865874239961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-20 07:37:52</sys_updated_on>
+            <sys_updated_on>2019-07-15 07:27:40</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-15 07:27:40</sys_created_on>
+            <sys_id>680ae157db2a730088658742399619d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_ltu_new_purchase_order" sys_domain="global" view="Default view">e8fd2cdfdb42b3008865874239961931</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-15 07:27:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>11</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-20 07:37:52</sys_created_on>
-            <sys_id>ca9c3c1bdb82b300886587423996195d</sys_id>
+            <sys_created_on>2019-07-15 07:27:40</sys_created_on>
+            <sys_id>e80ae157db2a730088658742399619d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_ltu_new_purchase_order" sys_domain="global" view="Default view">e8fd2cdfdb42b3008865874239961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-20 07:37:52</sys_updated_on>
+            <sys_updated_on>2019-07-15 07:27:40</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>12</position>
+            <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-20 07:37:52</sys_created_on>
-            <sys_id>4e9c3c1bdb82b300886587423996195d</sys_id>
+            <sys_created_on>2019-07-15 07:27:40</sys_created_on>
+            <sys_id>6c0ae157db2a730088658742399619d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_ltu_new_purchase_order" sys_domain="global" view="Default view">e8fd2cdfdb42b3008865874239961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-20 07:37:52</sys_updated_on>
+            <sys_updated_on>2019-07-15 07:27:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>13</position>
+            <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-20 07:37:52</sys_created_on>
-            <sys_id>ce9c3c1bdb82b300886587423996195d</sys_id>
+            <sys_created_on>2019-07-15 07:27:40</sys_created_on>
+            <sys_id>ec0ae157db2a730088658742399619d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_ltu_new_purchase_order" sys_domain="global" view="Default view">e8fd2cdfdb42b3008865874239961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-20 07:37:52</sys_updated_on>
+            <sys_updated_on>2019-07-15 07:27:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>work_notes</element>
-            <position>14</position>
+            <position>16</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-06-20 07:37:52</sys_created_on>
-            <sys_id>429c3c1bdb82b300886587423996195e</sys_id>
+            <sys_created_on>2019-07-15 07:27:40</sys_created_on>
+            <sys_id>600ae157db2a730088658742399619d2</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_ltu_new_purchase_order" sys_domain="global" view="Default view">e8fd2cdfdb42b3008865874239961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-06-20 07:37:52</sys_updated_on>
+            <sys_updated_on>2019-07-15 07:27:40</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="LTU Base Tasks" max_length="40" name="x_58872_needit_ltu_base_tasks" type="collection">
+        <element calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Who Requires The Service" max_length="32" name="who_requires_the_service" reference="sys_user" type="reference"/>
+    </element>
+</database>
